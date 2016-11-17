@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>actinnov</name>
+	<creationDate>05/10/2015</creationDate>
+	<author>Nick Penny</author>
+	<authorEmail>nickpenny@bigwavemedia.co.uk</authorEmail>
+	<authorUrl>#</authorUrl>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>3.1.0</version>
+	<description>Active Innovate</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>fonts</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	<positions>
+		<position>header-left</position>
+		<position>navigation</position>
+		<position>banners</position>
+		<position>quick-links</position>
+		<position>social</position>
+		<position>address</position>
+	</positions>
+</extension>

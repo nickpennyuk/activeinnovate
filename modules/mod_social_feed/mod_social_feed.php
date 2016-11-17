@@ -1,0 +1,1 @@
+<?phpdefined('_JEXEC') or die();require_once __DIR__ . '/helper.php';$list = SocialHelper::getList($params);if (count($list)){	require JModuleHelper::getLayoutPath('mod_social_feed', $params->get('layout', 'default'));}
